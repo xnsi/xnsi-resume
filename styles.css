@@ -585,3 +585,67 @@ h3 {
     scroll-behavior: auto;
   }
 }
+
+/* Дальше мои дополнения */
+
+:root {
+  color-scheme: dark;
+  --page-bg: #15191f;
+  --surface: var(--page-bg);
+  --surface-muted: var(--page-bg);
+  --text: #e5e7eb;
+  --text-muted: #a7b0bf;
+  --border: #58677c;
+  --accent: #8ab4f8;
+  --radius: 0;
+  --shadow: none;
+}
+
+h2,
+h3 {
+  font-family: monospace;
+}
+
+.page-content {
+  gap: 0;
+  padding-block: 0;
+}
+
+.block {
+  border: 0;
+}
+
+.block + .block {
+  border-top: 1px solid var(--border);
+}
+
+.item-card,
+.skill-group {
+  border-radius: 0;
+}
+
+.education-card {
+  grid-template-columns: 1fr;
+}
+
+.site-header,
+.contact-section {
+  background: var(--surface);
+}
+
+.logo,
+.logo:hover,
+.button-primary,
+.button-primary:hover,
+.avatar {
+  color: var(--page-bg);
+}
+
+.navigation a:hover,
+.navigation a:focus-visible {
+  text-decoration: underline;
+}
+
+a:focus-visible {
+  outline-color: var(--accent);
+}

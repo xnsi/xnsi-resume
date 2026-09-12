@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Учебное резюме frontend-разработчика: Иванов Иван Иванович"
+      content="Учебное резюме Backend / Infrastructure Developer: Снигир Михаил Игоревич"
     />
-    <title>Иванов Иван — frontend-разработчик</title>
+    <title>Снигир Михаил — Backend / Infrastructure Developer</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
 
@@ -15,13 +15,13 @@
     <header class="site-header">
       <div class="container header-inner">
         <a class="logo" href="#top" aria-label="Перейти в начало страницы">
-          ИИ
+          СМ
         </a>
 
         <nav class="navigation" aria-label="Основная навигация">
-          <a href="#experience">Опыт</a>
           <a href="#projects">Проекты</a>
           <a href="#skills">Навыки</a>
+          <a href="#interests">Интересы</a>
           <a href="#education">Образование</a>
           <a href="#contacts">Контакты</a>
         </nav>
@@ -30,155 +30,95 @@
 
     <main id="top" class="container page-content">
       <section class="hero block" aria-labelledby="hero-title">
-        <div class="hero-main">
-          <p class="eyebrow">Frontend-разработчик</p>
-          <h1 id="hero-title">Иванов Иван Иванович</h1>
-          <p class="hero-text">
-            Создаю понятные веб-интерфейсы, соединяя аккуратный код,
-            внимание к пользователю и ответственную командную работу.
-            Умею доводить учебные и пет-проекты от идеи до публикации.
-          </p>
+      <div class="hero-main">
+        <p class="eyebrow">Backend / Infrastructure Developer</p>
+        <h1 id="hero-title">Снигир Михаил Игоревич</h1>
 
-          <div class="tag-list" aria-label="Ключевые качества">
-            <span class="tag">JavaScript</span>
-            <span class="tag">Адаптивные интерфейсы</span>
-            <span class="tag">Командная работа</span>
-            <span class="tag">Самостоятельность</span>
-          </div>
+        <p class="hero-text">
+          Развиваюсь в backend-разработке и инфраструктуре. Работаю с Linux,
+          разворачиваю и сопровождаю личные сервисы, использую контейнеры и
+          настраиваю сетевое окружение. Мне интересно доводить сервис от кода
+          и конфигурации до работающего развёртывания.
+          Уделяю внимание деталям конфигурации и тому, как взаимодействуют компоненты системы.
+        </p>
 
-          <div class="hero-actions">
-            <a class="button button-primary" href="#projects">Посмотреть проекты</a>
-            <a class="button button-secondary" href="mailto:ivan.ivanov@example.com">
-              Написать мне
-            </a>
-          </div>
+        <div class="tag-list" aria-label="Ключевые навыки и качества">
+          <span class="tag">Linux</span>
+          <span class="tag">Python</span>
+          <span class="tag">Контейнеризация</span>
+          <span class="tag">Сети</span>
         </div>
 
-        <aside class="hero-summary" aria-label="Краткая информация">
-          <div class="avatar" aria-hidden="true">ИИ</div>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">
+            Посмотреть практический опыт
+          </a>
+        </div>
+      </div>
 
-          <dl class="facts-list">
-            <div>
-              <dt>Город</dt>
-              <dd>Москва</dd>
-            </div>
-            <div>
-              <dt>Опыт</dt>
-              <dd>1 год учебной практики</dd>
-            </div>
-            <div>
-              <dt>Главный результат</dt>
-              <dd>3 завершённых веб-проекта</dd>
-            </div>
-            <div>
-              <dt>Сейчас</dt>
-              <dd>Открыт к стажировке</dd>
-            </div>
-          </dl>
-        </aside>
-      </section>
+      <aside class="hero-summary" aria-label="Краткая информация">
+        <div class="avatar" aria-hidden="true">СМ</div>
+
+        <dl class="facts-list">
+          <div>
+            <dt>Направление</dt>
+            <dd>Backend и инфраструктура</dd>
+          </div>
+          <div>
+            <dt>Практика</dt>
+            <dd>Развёртывание личных сервисов</dd>
+          </div>
+          <div>
+            <dt>Инструменты</dt>
+            <dd>Linux, контейнеры, сетевые сервисы</dd>
+          </div>
+          <div>
+            <dt>Сейчас</dt>
+            <dd>Развиваю навыки разработки и сопровождения сервисов</dd>
+          </div>
+        </dl>
+      </aside>
+    </section>
 
       <!-- Секции ниже можно менять местами целиком. -->
-      <section id="experience" class="block content-section" aria-labelledby="experience-title">
+      <section id="projects" class="block content-section" aria-labelledby="projects-title">
         <div class="section-heading">
           <p class="section-number">01</p>
           <div>
-            <p class="eyebrow">Практика</p>
-            <h2 id="experience-title">Опыт работы</h2>
-          </div>
-        </div>
-
-        <div class="item-list">
-          <!-- Скопируйте article целиком, чтобы добавить ещё одно место работы. -->
-          <article class="item-card experience-card">
-            <div class="item-meta">
-              <p class="item-period">Июнь 2025 — август 2025</p>
-              <p class="item-place">ООО «Пример» · Москва</p>
-            </div>
-            <div class="item-content">
-              <h3>Стажёр frontend-разработчик</h3>
-              <p>
-                Участвовал в разработке внутреннего сервиса и работал
-                вместе с дизайнером и backend-разработчиком.
-              </p>
-              <ul>
-                <li>Собрал адаптивные интерфейсные компоненты.</li>
-                <li>Исправил ошибки в формах и состояниях загрузки.</li>
-                <li>Подготовил документацию по запуску проекта.</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="item-card experience-card">
-            <div class="item-meta">
-              <p class="item-period">Сентябрь 2024 — май 2025</p>
-              <p class="item-place">Учебная лаборатория · НИУ ВШЭ</p>
-            </div>
-            <div class="item-content">
-              <h3>Разработчик учебного проекта</h3>
-              <p>
-                Проектировал интерфейс, распределял задачи в команде и
-                представлял результат на итоговой защите.
-              </p>
-              <ul>
-                <li>Описал пользовательские сценарии и требования.</li>
-                <li>Настроил совместную работу через GitHub.</li>
-              </ul>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section id="projects" class="block content-section" aria-labelledby="projects-title">
-        <div class="section-heading">
-          <p class="section-number">02</p>
-          <div>
             <p class="eyebrow">Что я сделал</p>
-            <h2 id="projects-title">Пет-проекты</h2>
+            <h2 id="projects-title">Проекты</h2>
           </div>
         </div>
 
         <div class="card-grid">
-          <!-- Скопируйте article целиком, чтобы добавить ещё один проект. -->
           <article class="item-card project-card">
             <div class="project-topline">
-              <p class="item-period">2025</p>
-              <a href="#" aria-label="Открыть проект Планировщик задач">Демо ↗</a>
+              <p class="item-period">Личный проект</p>
             </div>
-            <h3>Планировщик задач</h3>
-            <p>
-              Небольшое приложение для создания, фильтрации и сохранения
-              повседневных задач.
-            </p>
-            <p class="project-result">
-              <strong>Результат:</strong> реализовал работу с состоянием и
-              сохранение данных между сессиями.
-            </p>
-            <div class="tag-list tag-list-small">
-              <span class="tag">HTML</span>
-              <span class="tag">CSS</span>
-              <span class="tag">JavaScript</span>
-            </div>
-          </article>
 
-          <article class="item-card project-card">
-            <div class="project-topline">
-              <p class="item-period">2024</p>
-              <a href="#" aria-label="Открыть проект Афиша мероприятий">GitHub ↗</a>
-            </div>
-            <h3>Афиша мероприятий</h3>
+            <h3>Сервис сборки и дистрибуции Flatpak-релизов</h3>
+
             <p>
-              Адаптивный каталог городских событий с поиском и фильтрами по
-              категориям.
+              Автоматизирует отслеживание новых релизов приложения,
+              сборку Flatpak-пакетов и их публикацию в приватном репозитории.
             </p>
+
             <p class="project-result">
-              <strong>Результат:</strong> спроектировал карточки, состояния
-              пустой выдачи и мобильную навигацию.
+              <strong>Мой вклад:</strong>
+              реализовал весь процесс от обнаружения нового релиза
+              до публикации собранного пакета.
             </p>
+
+            <p class="project-result">
+              <strong>Результат:</strong>
+              сервис работает несколько месяцев и автоматически
+              подготавливает и публикует новые версии приложения.
+            </p>
+
             <div class="tag-list tag-list-small">
-              <span class="tag">Figma</span>
-              <span class="tag">БЭМ</span>
-              <span class="tag">GitHub</span>
+              <span class="tag">Flatpak</span>
+              <span class="tag">Linux</span>
+              <span class="tag">Automation</span>
             </div>
           </article>
         </div>
@@ -186,7 +126,7 @@
 
       <section id="skills" class="block content-section" aria-labelledby="skills-title">
         <div class="section-heading">
-          <p class="section-number">03</p>
+          <p class="section-number">02</p>
           <div>
             <p class="eyebrow">Инструменты и подходы</p>
             <h2 id="skills-title">Навыки</h2>
@@ -198,42 +138,102 @@
             <p class="skill-level">Опытный уровень</p>
             <h3>Работаю самостоятельно</h3>
             <p>
-              Решаю типовые задачи без постоянной помощи, могу объяснить
-              решение и провести проверку результата.
+              Могу самостоятельно спроектировать и реализовать законченную программу,
+              разобраться с нетипичной ошибкой и объяснить детали реализации.
             </p>
+
             <ul class="plain-list">
-              <li>HTML и семантическая разметка</li>
-              <li>CSS, Flexbox и Grid</li>
-              <li>Git и GitHub</li>
+              <li>Python</li>
             </ul>
           </article>
 
           <article class="skill-group skill-middle">
             <p class="skill-level">Средний уровень</p>
-            <h3>Применяю в проектах</h3>
+            <h3>Использую на практике</h3>
             <p>
-              Выполняю задачи по документации и примерам, иногда обращаюсь за
-              review сложных решений.
+              Могу самостоятельно довести знакомую задачу до рабочего результата,
+              при необходимости обращаясь к документации и техническим материалам.
             </p>
+
             <ul class="plain-list">
-              <li>JavaScript и DOM API</li>
-              <li>TypeScript</li>
-              <li>Работа с REST API</li>
+              <li>C++</li>
+              <li>Администрирование Linux-систем</li>
+              <li>Контейнеризация</li>
             </ul>
           </article>
 
           <article class="skill-group skill-basic">
             <p class="skill-level">Базовый уровень</p>
-            <h3>Изучаю основы</h3>
+            <h3>Знаком с основами</h3>
             <p>
-              Понимаю назначение технологии и могу собрать простой пример с
-              подсказками.
+              Понимаю основные принципы области и могу выполнить небольшую задачу
+              после дополнительного изучения, но более крупный проект потребует
+              дополнительного времени на освоение.
             </p>
+
             <ul class="plain-list">
-              <li>React</li>
-              <li>Автоматические тесты</li>
-              <li>Docker</li>
+              <li>Android-разработка</li>
+              <li>Web-разработка</li>
+              <li>Основы информационной безопасности</li>
             </ul>
+          </article>
+        </div>
+      </section>
+
+      <section
+        id="interests"
+        class="block content-section"
+        aria-labelledby="interests-title"
+      >
+        <div class="section-heading">
+          <p class="section-number">03</p>
+          <div>
+            <p class="eyebrow">Что мне интересно</p>
+            <h2 id="interests-title">Технические интересы</h2>
+          </div>
+        </div>
+
+        <div class="card-grid">
+          <article class="item-card project-card">
+            <h3>Системное программирование</h3>
+            <p>
+              Интересуюсь низкоуровневой разработкой, устройством операционных
+              систем и языками Rust и C++.
+            </p>
+
+            <div class="tag-list tag-list-small">
+              <span class="tag">Rust</span>
+              <span class="tag">C++</span>
+              <span class="tag">Systems</span>
+            </div>
+          </article>
+
+          <article class="item-card project-card">
+            <h3>Self-hosting и инфраструктура</h3>
+            <p>
+              Изучаю эксплуатацию сервисов в Linux-среде, контейнеризацию,
+              сетевое взаимодействие и автоматизацию инфраструктурных задач.
+            </p>
+
+            <div class="tag-list tag-list-small">
+              <span class="tag">Linux</span>
+              <span class="tag">Containers</span>
+              <span class="tag">Networking</span>
+            </div>
+          </article>
+
+          <article class="item-card project-card">
+            <h3>Информационная безопасность</h3>
+            <p>
+              Интересуюсь безопасностью приложений, операционных систем
+              и сетевой инфраструктуры и постепенно изучаю эту область.
+            </p>
+
+            <div class="tag-list tag-list-small">
+              <span class="tag">Security</span>
+              <span class="tag">Linux</span>
+              <span class="tag">Networking</span>
+            </div>
           </article>
         </div>
       </section>
@@ -249,16 +249,9 @@
 
         <article class="item-card education-card">
           <div>
-            <p class="item-period">2024 — 2028</p>
-            <h3>Национальный исследовательский университет «Высшая школа экономики»</h3>
-            <p>Бакалавриат · Направление «Пример образовательной программы»</p>
-          </div>
-          <div>
-            <p class="item-label">Фокус обучения</p>
-            <p>
-              Программирование, проектирование интерфейсов, анализ данных и
-              командная разработка.
-            </p>
+            <p class="item-period">2025 — 2029</p>
+            <h3>НИУ ВШЭ и Центральный университет</h3>
+            <p>Дизайн и разработка информационных продуктов</p>
           </div>
         </article>
       </section>
@@ -266,19 +259,20 @@
       <section id="contacts" class="block contact-section" aria-labelledby="contacts-title">
         <div>
           <p class="eyebrow">Контакты</p>
-          <h2 id="contacts-title">Готов обсудить стажировку или учебный проект</h2>
+          <h2 id="contacts-title">Мой GitHub</h2>
         </div>
+
         <div class="contact-links">
-          <a href="mailto:ivan.ivanov@example.com">ivan.ivanov@example.com</a>
-          <a href="#">github.com/ivan-ivanov</a>
-          <a href="#">t.me/ivan_ivanov</a>
+          <a href="https://github.com/xnsi" target="_blank" rel="noopener noreferrer">
+            https://github.com/xnsi
+          </a>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <p>Иванов Иван Иванович</p>
+        <p>Снигир Михаил Игоревич</p>
         <p>Учебное резюме · 2026</p>
       </div>
     </footer>
