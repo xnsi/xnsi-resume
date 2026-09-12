@@ -17,7 +17,7 @@
 
 **Ссылка на GitHub Pages:** https://xnsi.github.io/xnsi-resume/
 
-**Ссылка на основной pull request:** [ВСТАВЬТЕ ССЫЛКУ] TODO
+**Ссылка на основной pull request:** https://github.com/xnsi/xnsi-resume/pull/1
 
 ---
 
